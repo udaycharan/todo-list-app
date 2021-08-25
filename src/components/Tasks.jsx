@@ -10,7 +10,7 @@ import addDays from "date-fns/addDays";
 
 
 
- const FORMAT = "dd/mm/yyyy";
+ const FORMAT = "dd/MM/yyyy";
 
     function formatDate(date, format, locale) {
           return dateFnsFormat(date, format, { locale });
